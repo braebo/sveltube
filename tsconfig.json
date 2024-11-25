@@ -1,0 +1,27 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+
+		// common
+		"forceConsistentCasingInFileNames": true,
+		"verbatimModuleSyntax": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"allowJs": true, // svelte.config.js
+		"checkJs": true, // svelte.config.js
+
+		// stricter
+		"strict": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noPropertyAccessFromIndexSignature": true,
+
+		// JSR
+		"noImplicitReturns": true
+	}
+}
